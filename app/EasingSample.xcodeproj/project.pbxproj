@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8759F913138FC20200A5537A /* Package.png in Resources */ = {isa = PBXBuildFile; fileRef = 8759F90F138FC20200A5537A /* Package.png */; };
+		8759F914138FC20200A5537A /* Package2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8759F910138FC20200A5537A /* Package2.png */; };
+		8759F915138FC20200A5537A /* Package2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8759F911138FC20200A5537A /* Package2@2x.png */; };
+		8759F916138FC20200A5537A /* Package@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8759F912138FC20200A5537A /* Package@2x.png */; };
+		87B30C76138F948C007E2BBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B30C75138F948C007E2BBE /* UIKit.framework */; };
+		87B30C78138F948C007E2BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B30C77138F948C007E2BBE /* Foundation.framework */; };
+		87B30C7A138F948C007E2BBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B30C79138F948C007E2BBE /* CoreGraphics.framework */; };
+		87B30C80138F948C007E2BBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87B30C7E138F948C007E2BBE /* InfoPlist.strings */; };
+		87B30C83138F948C007E2BBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B30C82138F948C007E2BBE /* main.m */; };
+		87B30C86138F948C007E2BBE /* EasingSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B30C85138F948C007E2BBE /* EasingSampleAppDelegate.m */; };
+		87B30C89138F948C007E2BBE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87B30C87138F948C007E2BBE /* MainWindow.xib */; };
+		87B30C8C138F948C007E2BBE /* EasingSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B30C8B138F948C007E2BBE /* EasingSampleViewController.m */; };
+		87B30C8F138F948C007E2BBE /* EasingSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87B30C8D138F948C007E2BBE /* EasingSampleViewController.xib */; };
+		87B30CBA138F9CE4007E2BBE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B30CB9138F9CE4007E2BBE /* QuartzCore.framework */; };
+		87B30CC0138F9DFB007E2BBE /* EasyEaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B30CBD138F9DFB007E2BBE /* EasyEaseAnimation.m */; };
+		87B30CC1138F9DFB007E2BBE /* Equations.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B30CBF138F9DFB007E2BBE /* Equations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8759F90F138FC20200A5537A /* Package.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Package.png; sourceTree = "<group>"; };
+		8759F910138FC20200A5537A /* Package2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Package2.png; sourceTree = "<group>"; };
+		8759F911138FC20200A5537A /* Package2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Package2@2x.png"; sourceTree = "<group>"; };
+		8759F912138FC20200A5537A /* Package@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Package@2x.png"; sourceTree = "<group>"; };
+		87B30C71138F948C007E2BBE /* EasingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B30C75138F948C007E2BBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87B30C77138F948C007E2BBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87B30C79138F948C007E2BBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87B30C7D138F948C007E2BBE /* EasingSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasingSample-Info.plist"; sourceTree = "<group>"; };
+		87B30C7F138F948C007E2BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87B30C81138F948C007E2BBE /* EasingSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasingSample-Prefix.pch"; sourceTree = "<group>"; };
+		87B30C82138F948C007E2BBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87B30C84138F948C007E2BBE /* EasingSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasingSampleAppDelegate.h; sourceTree = "<group>"; };
+		87B30C85138F948C007E2BBE /* EasingSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasingSampleAppDelegate.m; sourceTree = "<group>"; };
+		87B30C88138F948C007E2BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		87B30C8A138F948C007E2BBE /* EasingSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasingSampleViewController.h; sourceTree = "<group>"; };
+		87B30C8B138F948C007E2BBE /* EasingSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasingSampleViewController.m; sourceTree = "<group>"; };
+		87B30C8E138F948C007E2BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EasingSampleViewController.xib; sourceTree = "<group>"; };
+		87B30CB9138F9CE4007E2BBE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		87B30CBC138F9DFB007E2BBE /* EasyEaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyEaseAnimation.h; sourceTree = "<group>"; };
+		87B30CBD138F9DFB007E2BBE /* EasyEaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyEaseAnimation.m; sourceTree = "<group>"; };
+		87B30CBE138F9DFB007E2BBE /* Equations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equations.h; sourceTree = "<group>"; };
+		87B30CBF138F9DFB007E2BBE /* Equations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equations.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B30C6E138F948C007E2BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B30CBA138F9CE4007E2BBE /* QuartzCore.framework in Frameworks */,
+				87B30C76138F948C007E2BBE /* UIKit.framework in Frameworks */,
+				87B30C78138F948C007E2BBE /* Foundation.framework in Frameworks */,
+				87B30C7A138F948C007E2BBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8759F90E138FC20200A5537A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8759F90F138FC20200A5537A /* Package.png */,
+				8759F910138FC20200A5537A /* Package2.png */,
+				8759F911138FC20200A5537A /* Package2@2x.png */,
+				8759F912138FC20200A5537A /* Package@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		87B30C66138F948C007E2BBE = {
+			isa = PBXGroup;
+			children = (
+				87B30CBB138F9DFB007E2BBE /* EasyeaseTouch */,
+				87B30C7B138F948C007E2BBE /* EasingSample */,
+				87B30C74138F948C007E2BBE /* Frameworks */,
+				87B30C72138F948C007E2BBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87B30C72138F948C007E2BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87B30C71138F948C007E2BBE /* EasingSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B30C74138F948C007E2BBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87B30CB9138F9CE4007E2BBE /* QuartzCore.framework */,
+				87B30C75138F948C007E2BBE /* UIKit.framework */,
+				87B30C77138F948C007E2BBE /* Foundation.framework */,
+				87B30C79138F948C007E2BBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87B30C7B138F948C007E2BBE /* EasingSample */ = {
+			isa = PBXGroup;
+			children = (
+				8759F90E138FC20200A5537A /* Resources */,
+				87B30C84138F948C007E2BBE /* EasingSampleAppDelegate.h */,
+				87B30C85138F948C007E2BBE /* EasingSampleAppDelegate.m */,
+				87B30C87138F948C007E2BBE /* MainWindow.xib */,
+				87B30C8A138F948C007E2BBE /* EasingSampleViewController.h */,
+				87B30C8B138F948C007E2BBE /* EasingSampleViewController.m */,
+				87B30C8D138F948C007E2BBE /* EasingSampleViewController.xib */,
+				87B30C7C138F948C007E2BBE /* Supporting Files */,
+			);
+			path = EasingSample;
+			sourceTree = "<group>";
+		};
+		87B30C7C138F948C007E2BBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87B30C7D138F948C007E2BBE /* EasingSample-Info.plist */,
+				87B30C7E138F948C007E2BBE /* InfoPlist.strings */,
+				87B30C81138F948C007E2BBE /* EasingSample-Prefix.pch */,
+				87B30C82138F948C007E2BBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87B30CBB138F9DFB007E2BBE /* EasyeaseTouch */ = {
+			isa = PBXGroup;
+			children = (
+				87B30CBC138F9DFB007E2BBE /* EasyEaseAnimation.h */,
+				87B30CBD138F9DFB007E2BBE /* EasyEaseAnimation.m */,
+				87B30CBE138F9DFB007E2BBE /* Equations.h */,
+				87B30CBF138F9DFB007E2BBE /* Equations.m */,
+			);
+			path = EasyeaseTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87B30C70138F948C007E2BBE /* EasingSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B30C92138F948C007E2BBE /* Build configuration list for PBXNativeTarget "EasingSample" */;
+			buildPhases = (
+				87B30C6D138F948C007E2BBE /* Sources */,
+				87B30C6E138F948C007E2BBE /* Frameworks */,
+				87B30C6F138F948C007E2BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasingSample;
+			productName = EasingSample;
+			productReference = 87B30C71138F948C007E2BBE /* EasingSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87B30C68138F948C007E2BBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "いります電算企画";
+			};
+			buildConfigurationList = 87B30C6B138F948C007E2BBE /* Build configuration list for PBXProject "EasingSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87B30C66138F948C007E2BBE;
+			productRefGroup = 87B30C72138F948C007E2BBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87B30C70138F948C007E2BBE /* EasingSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87B30C6F138F948C007E2BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B30C80138F948C007E2BBE /* InfoPlist.strings in Resources */,
+				87B30C89138F948C007E2BBE /* MainWindow.xib in Resources */,
+				87B30C8F138F948C007E2BBE /* EasingSampleViewController.xib in Resources */,
+				8759F913138FC20200A5537A /* Package.png in Resources */,
+				8759F914138FC20200A5537A /* Package2.png in Resources */,
+				8759F915138FC20200A5537A /* Package2@2x.png in Resources */,
+				8759F916138FC20200A5537A /* Package@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87B30C6D138F948C007E2BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B30C83138F948C007E2BBE /* main.m in Sources */,
+				87B30C86138F948C007E2BBE /* EasingSampleAppDelegate.m in Sources */,
+				87B30C8C138F948C007E2BBE /* EasingSampleViewController.m in Sources */,
+				87B30CC0138F9DFB007E2BBE /* EasyEaseAnimation.m in Sources */,
+				87B30CC1138F9DFB007E2BBE /* Equations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87B30C7E138F948C007E2BBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B30C7F138F948C007E2BBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87B30C87138F948C007E2BBE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B30C88138F948C007E2BBE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		87B30C8D138F948C007E2BBE /* EasingSampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B30C8E138F948C007E2BBE /* en */,
+			);
+			name = EasingSampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87B30C90138F948C007E2BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87B30C91138F948C007E2BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		87B30C93138F948C007E2BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasingSample/EasingSample-Prefix.pch";
+				INFOPLIST_FILE = "EasingSample/EasingSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87B30C94138F948C007E2BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasingSample/EasingSample-Prefix.pch";
+				INFOPLIST_FILE = "EasingSample/EasingSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87B30C6B138F948C007E2BBE /* Build configuration list for PBXProject "EasingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B30C90138F948C007E2BBE /* Debug */,
+				87B30C91138F948C007E2BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B30C92138F948C007E2BBE /* Build configuration list for PBXNativeTarget "EasingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B30C93138F948C007E2BBE /* Debug */,
+				87B30C94138F948C007E2BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87B30C68138F948C007E2BBE /* Project object */;
+}
